@@ -3,6 +3,7 @@
 $im = imagecreatetruecolor(200, 200);
 $white = imagecolorallocate($im, 255, 255, 255);
 
+//deployment has been changed
 $deployment = getenv("COLOR");
 
 if ( $deployment == 'blue') {
